@@ -2,6 +2,7 @@
 
     .main_header {
         padding: 100px 15px 0px 15px;
+        height: 75vh;
     }
 
     .header_social {
@@ -40,21 +41,33 @@
 
     .arrow {
         left: 49%;
-        bottom: -10px;
+        bottom: 45px;
     }
 
     .scroll_down p {
         left: 39%;
-        bottom: -45px;
+        bottom: 15px;
     }
 
-    .our_history {
-        margin-top: 60px;
+    .our_services {
+        margin-top: 50px;
     }
 
-    .our_history .tretment {
-        width: 92%;
-        height: 100%;
+    .our_services .title_info {
+        padding: 0px 20px;
+        margin-bottom: 40px;
+    }
+
+    .our_services .title_info h1 {
+        font-size: 30px;
+        margin-top: 0px;
+        margin-bottom: 25px;
+        line-height: 36px;
+    }
+
+    .our_services .tretment {
+        width: 90%;
+        margin-top: 70px;
     }
 
     .tretment_info {
@@ -85,11 +98,28 @@
     }
 
     .contact_in_short {
-        width: 100%;
+        padding: 50px 10px;
+    }
+
+    .contact_in_short h1 {
+        font-size: 43px;
     }
 
     .contact_in_short .contact_item {
         display: inline-block;
+    }
+
+    .our_gallery {
+        padding: 50px 20px 0px 20px;
+    }
+
+    .our_gallery h1 {
+        font-size: 30px;
+    }
+
+    .our_gallery p {
+        padding: 0px 0px;
+        margin-bottom: 10px;
     }
 
     #home h3 {
@@ -115,6 +145,7 @@
         box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
         padding: 10px 0;
         text-align: center;
+        padding-right: 3%;
     }
 
     .custom-navbar .nav li a {
