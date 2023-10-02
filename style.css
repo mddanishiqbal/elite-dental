@@ -12,7 +12,8 @@
 
 body {
   background: #ffffff;
-  overflow-x: hidden;
+  margin: 0px !important;
+  padding: 0px !important;
 }
 
 html {
