@@ -8,12 +8,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width: 100%;
 }
 
 body {
   background: #ffffff;
-  margin: 0px !important;
-  padding: 0px !important;
+  max-width: 100%;
 }
 
 html {
@@ -262,7 +262,7 @@ section {
   padding: 10px 0;
   background: #fff !important;
   box-shadow: 0 2px 8px rgba(0, 0, 0, .075);
-  padding-right: 3%;
+  padding-right: 4%;
   padding-left: 18px;
 }
 
@@ -284,7 +284,7 @@ section {
 
 .top-nav-collapse {
   background: #ffffff;
-  padding-right: 3%;
+  padding-right: 4%;
 }
 
 .custom-navbar .navbar-nav.navbar-nav-first {
@@ -576,7 +576,7 @@ section {
 
 .our_services .tretment {
   position: relative;
-  width: 310px;
+  width: 305px;
   height: 320px;
   margin-left: 20px;
   border-radius: 5px;
@@ -1529,85 +1529,6 @@ section {
   color: #ffffff;
 }
 
-
-
-/*---------------------------------------
-     RESPONSIVE STYLES              
-  -----------------------------------------*/
-
-@media screen and (max-width: 1170px) {
-  .custom-navbar .navbar-nav.navbar-nav-first {
-    margin-left: inherit;
-  }
-}
-
-
-@media only screen and (max-width: 1200px) {
-  .about-info {
-    padding-right: 0;
-  }
-
-  .about-image {
-    position: relative;
-  }
-}
-
-
-@media only screen and (max-width: 992px) {
-  section {
-    padding: 60px 0;
-  }
-
-  .custom-navbar .section-btn {
-    margin-left: 1em;
-  }
-
-  .slider .item {
-    background-position: center;
-  }
-
-  .about-info {
-    padding: 0;
-  }
-
-  .team-info {
-    margin-bottom: 50px;
-  }
-
-  #menu .menu-thumb {
-    width: 103%;
-  }
-
-  #testimonial {
-    background-position: 50% 0 !important;
-  }
-
-  #google-map,
-  .footer-info {
-    margin-bottom: 50px;
-  }
-}
-
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .custom-navbar .nav li a {
-    padding-right: 10px;
-    padding-left: 10px;
-  }
-}
-
-
-
-@media only screen and (max-width: 580px) {
-
-  h2 {
-    font-size: 1.8em;
-  }
-
-  .menu-thumb .menu-info {
-    top: 60%;
-  }
-}
 
 /** About page about section **/
 .about_left,
